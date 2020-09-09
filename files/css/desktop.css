@@ -1,0 +1,50 @@
+.program {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    vertical-align: top;
+    width: 72px;
+    z-index: 0;
+    line-height: 12px;
+    margin: 0;
+    padding: 8px 1px;
+}
+
+.program:hover {
+    cursor: pointer;
+}
+
+.program-icon {
+    width: 32px;
+    padding-bottom: 7px;
+}
+
+.program-lable {
+    color: white;
+    font-family: win;
+    font-size: 8px;
+    text-align: center;
+    padding: 1px;
+}
+
+.program-lable-clicked {
+    background-color: #03007C;
+    border-style: dotted;
+    border-width: 1px;
+}
+
+.program-icon-clicked {
+    filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
+}
+
+body {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

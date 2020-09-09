@@ -1,0 +1,37 @@
+.program-window {
+    width: 90vw;
+    height: 90vh;
+    display: none;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.projects-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: calc(100% - 90px);
+}
+
+.project {
+    display: relative;
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+}
+
+.project-img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.project-name {
+    font-size: 15px;
+}
+
+.project-desc {
+    color: black;
+}

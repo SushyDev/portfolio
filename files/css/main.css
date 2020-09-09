@@ -1,0 +1,28 @@
+* {
+  user-select: none; 
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.title-bar:hover {
+  cursor: default;
+}
+
+.title-bar:active {
+  cursor: move;
+}
+
+body {
+  background-color: #00807F;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vh;
+}
+
+@font-face {
+  font-family: win;
+  src: url(https://cdn.glitch.com/279cea9a-92e2-42eb-b930-0e6994f22e6f%2F98.ttf?v=1591454156084);
+}
